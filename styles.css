@@ -1,0 +1,89 @@
+/* En static/styles.css */
+.logo {
+    max-width: 100px; /* Ajusta el valor según tus preferencias */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+/* Estilos para las tablas de horarios */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Estilos para filas pares con colores alternos */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo de filas pares */
+}
+
+/* Estilos para las celdas de horas */
+.table td.time-cell {
+    background-color: #f8f9fa; /* Fondo de las celdas de horas */
+    font-weight: bold; /* Texto en negrita en las celdas de horas */
+    text-align: center; /* Alineación centrada del texto */
+    font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+/* Estilo de sombra al pasar el mouse */
+.table td:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sutil sombra al pasar el mouse */
+    transition: box-shadow 0.3s ease; /* Transición suave de la sombra */
+}
+
+/* Estilos para encabezados de columna */
+.table th {
+    background-color: #343a40; /* Fondo oscuro para los encabezados */
+    color: #fff; /* Texto blanco en los encabezados */
+    text-align: center; /* Alineación centrada del texto */
+    font-size: 18px; /* Tamaño de fuente más grande para los encabezados */
+}
+
+/* Estilos para las flechas de ordenamiento */
+.fa-arrow-up,
+.fa-arrow-down {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #007bff; /* Color azul para las flechas */
+    cursor: pointer;
+}
+
+/* Estilos para las flechas de ordenamiento en estado deshabilitado */
+.fa-arrow-up.disabled,
+.fa-arrow-down.disabled {
+    color: #ccc; /* Color gris para las flechas deshabilitadas */
+    cursor: not-allowed;
+}
+
+/* Estilos para los iconos de los países */
+.fa-flag {
+    font-size: 18px;
+    margin-right: 5px;
+    color: #28a745; /* Color verde para los países */
+}
+
+/* Agregar estilos personalizados aquí si es necesario */
+.course-description {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-horizontal .img-thumbnail {
+    width: 150px;
+    height: auto;
+}
+
+.flag-icon {
+    font-size: 18px; /* Tamaño del icono de la bandera */
+    margin-right: 5px; /* Margen a la derecha del icono */
+    vertical-align: middle; /* Alineación vertical con el texto */
+}
